@@ -15,7 +15,7 @@ let employee1: Employee = {
 let employee2: Employee = {
     id: 2,
     name: "Segun",
-    retire: (date: Date) {
+    retire: (date: Date)=> {
         console.log(date);
         
     }
